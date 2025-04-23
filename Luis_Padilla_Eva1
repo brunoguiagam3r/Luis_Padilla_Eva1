@@ -7,7 +7,18 @@ cd Luis_Padilla_Eva1
 # Inicializar el repositorio Git
 git init
 # Configurar tu nombre de usuario en Git
-git config --global user.name "Tu Nombre"
+git config --global user.name "Bruno berrios"
 
 # Configurar tu correo electrónico en Git
-git config --global user.email "tu_email@example.com"
+git config --global user.email "BrunoBerrios.inacapmail.cl"
+# Crear un archivo README.md
+echo "# Luis_Padilla_Eva1" > README.md
+
+# Ver el estado de los archivos
+git status
+
+# Agregar el archivo al "stage"
+git add README.md
+
+# Hacer un commit con un mensaje
+git commit -m "Primer commit con README"
