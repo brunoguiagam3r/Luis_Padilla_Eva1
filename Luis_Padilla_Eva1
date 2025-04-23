@@ -1,0 +1,13 @@
+# Crear la carpeta con el nombre del repositorio
+mkdir Luis_Padilla_Eva1
+
+# Navegar a la carpeta creada
+cd Luis_Padilla_Eva1
+
+# Inicializar el repositorio Git
+git init
+# Configurar tu nombre de usuario en Git
+git config --global user.name "Tu Nombre"
+
+# Configurar tu correo electrónico en Git
+git config --global user.email "tu_email@example.com"
