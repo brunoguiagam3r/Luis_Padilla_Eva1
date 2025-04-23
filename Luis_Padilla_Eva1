@@ -22,3 +22,4 @@ git add README.md
 
 # Hacer un commit con un mensaje
 git commit -m "Primer commit con README"
+git remote add origin 
